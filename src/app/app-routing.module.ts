@@ -6,6 +6,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 const routes: Routes = [
+  // path: '/dashboard' PagesRouting
+  // path: '/auth' AuthRouting
+  // path: '/medicos' MedicosRouting
+  // path: '/compras' ComprasRouting
   { path: '**', component: NopagefoundComponent },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
 ];
