@@ -1,3 +1,4 @@
+import { ComponentsModule } from './../components/components.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../shared/shared.module';
@@ -22,6 +23,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     Grafica1Component,
     PagesComponent,
   ],
-  imports: [CommonModule, SharedModule, RouterModule, FormsModule],
+  imports: [
+    CommonModule,
+    SharedModule,
+    RouterModule,
+    FormsModule,
+    ComponentsModule,
+  ],
 })
 export class PagesModule {}
