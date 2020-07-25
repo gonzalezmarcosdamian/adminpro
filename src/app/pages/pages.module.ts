@@ -1,10 +1,17 @@
-import { ComponentsModule } from './../components/components.module';
+//angular
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
+//propios
+import { ComponentsModule } from './../components/components.module';
+import { SharedModule } from '../shared/shared.module';
+
+//externos
+import { ChartsModule } from 'ng2-charts';
+
+//components
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
