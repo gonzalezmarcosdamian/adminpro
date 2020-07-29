@@ -10,7 +10,7 @@ export class SidebarService {
       icon: 'mdi mdi-gauge',
       submenu: [
         {
-          title: 'main',
+          title: 'Main',
           url: '/',
         },
         {
@@ -20,6 +20,14 @@ export class SidebarService {
         {
           title: 'Graficas',
           url: 'grafica1',
+        },
+        {
+          title: 'Promesas',
+          url: 'promesas',
+        },
+        {
+          title: 'Rxjs',
+          url: 'rxjs',
         },
       ],
     },
